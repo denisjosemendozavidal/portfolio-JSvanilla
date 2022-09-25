@@ -505,13 +505,14 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: fit-content;
+        height: 100vh;
         margin-top: 2%;
         justify-content: center;
         z-index: 3000;
+        
     }
         .projects-tittle {
-            padding: 5%;
+            padding: 1%;
             font-size: xx-large;
             font-weight: lighter;
         }
@@ -519,80 +520,120 @@ li {
         .projects-list {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            gap: 1%;
-            height: max-content;
+            justify-content: flex-start;
+            height: 100%;
             width: 80%;
         }
 
-            .vanilla-type-projects {
-                display: flex;
-                height: 100vh;
-                width: 90%;
-                gap: 10%;
-                justify-content: center;
-            }
+        /*Slider with swiper starts here*/
 
+        .swiper {
+            width: 50%;
+            height: 80%;
+        }
+        
+            .swiper-wrapper {
+                width: 100%;
+                height: 100%;
+            }
+        
+        
+        
+            .swiper-slide {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1%;
+                height: 100%;
+                width: 100%;
+            }
+        
                 .portfolio {
+                    align-self: center;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
                     gap: 5%;
-                    width: 40%;
-                    height: 80%;
+                    width: 90%;
+                    height: 90%;
                     border-radius: 20px;
                     padding: 1%;
                     box-shadow: 3px 3px 10px #0109;
                 }
 
-                    .portfolio > a > img {
-                        height: 80%;
-                        width: 80%;
+                    .portfolio > a{
+                        align-self: center;
+                        height: 50%;
+                        width: 90%;
                         border-radius: 20px;
                     }
-
-
+        
+                        .portfolio > a > img {
+                            height: 100%;
+                            width: 80%;
+                            border-radius: 20px;
+                        }
+        
                 .ecommerce {
+                    align-self: center;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
                     gap: 5%;
-                    width: 40%;
-                    height: 80%;
+                    width: 90%;
+                    height: 90%;
                     border-radius: 20px;
                     padding: 1%;
                     box-shadow: 3px 3px 10px #0109;
                 }
 
-                    .ecommerce > a > img {
-                        width: 80%;
+                    .ecommerce > a{
+                        align-self: center;
+                        height: 50%;
+                        width: 90%;
                         border-radius: 20px;
                     }
-            
-            .react-projects {
-                display: flex;
-                height: 100vh;
-                width: 90%;
-                gap: 10%;
-                justify-content: center;
+                        .ecommerce > a > img {
+                            height: 100%;
+                            width: 80%;
+                            border-radius: 20px;
+                        }
+        
+                .weather-app {
+                    align-self: center;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5%;
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 20px;
+                    padding: 1%;
+                    box-shadow: 3px 3px 10px #0109;
+                }
+
+                    .weather-app > a{
+                        align-self: center;
+                        height: 50%;
+                        width: 90%;
+                        border-radius: 20px;
+                    }
+        
+                        .weather-app > a > img {
+                            height: 100%;
+                            width: 80%;
+                            border-radius: 20px;
+                        }
+
+            .swiper-button-prev {
+                color: var(--darkblue)
             }
 
-                .weather-app {
-                    text-align: center;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 5%;
-                    width: 40%;
-                    height: 80%;
-                    border-radius: 20px;
-                    padding: 1%;
-                    box-shadow: 3px 3px 10px #0109;
-                }
+            .swiper-button-next {
+                color: var(--darkblue)
+            }
 
-                    .weather-app > a > img {
-                        width: 80%;
-                        border-radius: 20px;
-                    }
+        /*Slider with swiper ends here*/
 
             
     .byeimages {
