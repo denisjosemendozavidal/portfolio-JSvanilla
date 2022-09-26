@@ -645,7 +645,7 @@ li {
                     }
         
                         .weather-app > a > img {
-                            height: 100%;
+                            height: 90%;
                             width: 80%;
                             border-radius: 20px;
                         }
@@ -693,7 +693,8 @@ li {
     .container-everything {
         width: 100vw;
         height: fit-content;
-    
+        background-image: url("/images/rain.gif");
+        background-size: 100%;
     }
     
     /*The Nav*/
@@ -1289,7 +1290,8 @@ li {
     .container-everything {
         width: 100vw;
         height: fit-content;
-    
+        background-image: url("/images/rain.gif");
+        background-size: 100%;
     }
     
     /*The Nav*/
@@ -1901,7 +1903,8 @@ li {
     .container-everything {
         width: 95vw;
         height: fit-content;
-    
+        background-image: url("/images/rain.gif");
+        background-size: 100%;
     }
     
     /*The Nav*/
