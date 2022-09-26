@@ -16,7 +16,7 @@ let loading = new Typed (".loadingtext", {
   loop: true,
 })
 
-//loader
+//loader currently not active
 
 const loader = document.querySelector("#loader")
 
