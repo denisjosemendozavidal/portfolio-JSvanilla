@@ -1898,7 +1898,7 @@ li {
 
 @media (max-width: 500px) {
     .container-everything {
-        width: 100vw;
+        width: 95vw;
         height: fit-content;
     
     }
@@ -1911,7 +1911,7 @@ li {
             justify-content: center;
             padding-right: 5%;
             position: relative;
-            width: 100%;
+            width: 100vw;
             height: fit-content;
             z-index: 10000;
         }
@@ -2030,7 +2030,7 @@ li {
         }
     
             .hi-and-button {
-                width: 70%;
+                width: 90%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -2041,7 +2041,7 @@ li {
             .introduction {
                 font-family: Verdana, Geneva, Tahoma, sans-serif cursive;
                 font-size: x-large;
-                height: 500px;
+                height: 400px;
                 letter-spacing: 20%;
                 line-height: 5rem;
                 align-content: center;
@@ -2049,7 +2049,7 @@ li {
                 width: 90%;
                 text-align: center;
                 padding: 1%;
-                margin-right: 10%;
+                margin-right: 0;
             }
     
             .hi {
@@ -2247,33 +2247,39 @@ li {
             justify-content: flex-start;
             align-content: center;
             align-items: flex-start;
-            padding: 1%;
+            padding: 3%;
             margin-top: 5%;
             height: fit-content;
             gap: 1%;
-            width: 80%;
+            width: 100%;
             margin-right: 0;
-            margin-top: 3%;
+            
         }
     
             .background {
                 line-height: 2rem;
                 width: 100%;
                 height: 500px;
-                text-align: left;
+                text-align: center;
                 font-size: medium;
                 font-weight: normal;
                 font-family: tahoma;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                gap: 2%;
-                padding: 2%;
+                justify-content: flex-start;
+                align-items: center;
+                align-content: center;
+                gap: 5%;
+                padding: 0;
                 margin: 0;
             }
+
+                .background > p {
+                    margin: 0;
+                }
     
             .skills {
-                width: 90%;
+                width: 95%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -2503,19 +2509,19 @@ li {
             flex-direction: column;
             justify-content: center;
             height: fit-content;
-            width: 90%;
+            width: 95%;
             margin-right: 0;
         }
     
             .theend {
-                width: 80%;
+                width: 100%;
                 align-self: center;
                 padding: 1%;
                 height: 100vh;
             }
     
             .thatwasfun {
-                width: 80%;
+                width: 100%;
                 align-self: center;
                 padding: 1%;
                 height: 100vh;
