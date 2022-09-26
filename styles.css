@@ -2264,7 +2264,7 @@ li {
                 flex-direction: column;
                 justify-content: center;
                 gap: 2%;
-                padding: 1%;
+                padding: 2%;
                 
             }
     
@@ -2366,8 +2366,8 @@ li {
         }
             .projects-tittle {
                 padding: 1%;
-                font-size: large;
-                font-weight: lighter;
+                font-size: x-large;
+                font-weight: normal;
             }
     
             .projects-list {
