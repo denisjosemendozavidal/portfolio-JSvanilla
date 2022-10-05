@@ -693,6 +693,36 @@ li {
                             border-radius: 20px;
                         }
 
+                .RandM-project {
+                    align-self: center;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5%;
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 20px;
+                    padding: 1%;
+                    box-shadow: 3px 3px 10px #0109;
+                }
+
+                    .RandM-project > a{
+                        align-self: center;
+                        height: 50%;
+                        width: 90%;
+                        border-radius: 20px;
+                    }
+        
+                        .RandM-project > a > img {
+                            height: 90%;
+                            width: 80%;
+                            border-radius: 20px;
+                        }
+
+
+
+
+
             .swiper-button-prev {
                 color: var(--darkblue);
                 
