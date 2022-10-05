@@ -363,6 +363,45 @@ li {
 
 /*Styles for find me button end here*/
 
+/*Styles for download button start here*/
+
+    .download-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        border-radius: 20px;
+        background-color: var(--darkblue);
+        gap: 3%;
+        width: 50%;
+        align-self: center;
+        margin: 2%;
+        
+    }
+
+        .download-button > a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+            .download-button-text {
+                color: var(--darkerwhite);
+            }
+
+            .download-button-img {
+                color: var(--darkerwhite);
+                transition: 1s;
+            }
+
+                .download-button:hover .download-button-img {
+                    font-size: larger;
+                    transition: 1s;
+                }
+
+/*Styles for download button end here*/
+
         .selfie {
             align-content: center;
             align-self: flex-start;
@@ -956,6 +995,45 @@ li {
        }
     
     /*Styles for find me button end here*/
+
+    /*Styles for download button start here*/
+
+    .download-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        border-radius: 20px;
+        background-color: var(--darkblue);
+        gap: 3%;
+        width: 100%;
+        align-self: center;
+        margin: 2%;
+        
+    }
+
+        .download-button > a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+            .download-button-text {
+                color: var(--darkerwhite);
+            }
+
+            .download-button-img {
+                color: var(--darkerwhite);
+                transition: 1s;
+            }
+
+                .download-button:hover .download-button-img {
+                    font-size: larger;
+                    transition: 1s;
+                }
+
+    /*Styles for download button end here*/
     
             .selfie {
                 align-content: center;
@@ -1567,6 +1645,21 @@ li {
        }
     
     /*Styles for find me button end here*/
+
+
+    .download-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        border-radius: 20px;
+        background-color: var(--darkblue);
+        gap: 3%;
+        width: 50%;
+        align-self: center;
+        margin: 2%;
+        
+    }
     
             .selfie {
                 align-content: center;
