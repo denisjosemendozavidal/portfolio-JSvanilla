@@ -30,7 +30,7 @@ The Structure:
   
   Next, we see a section with an introduction of my name and my profession, along with a real selfie, (yes that's me.!). 
   This section has a button that reads “find me on” if you hover on it you get to see my socials, if you click on any of them it will take you to my actual socials,
-  options are, my linkedin, my github or my whatsapp. 
+  options are, my linkedin, my github or my whatsapp. Thre you can also find a "Download my CV" button, that does just that, if you click it, you'll get a PDF version of my CV.
   
   Following section is an “About me” section, I thought the best way to go around this was to record a video of myself explaining a little bit about my personal and
   professional background. 
