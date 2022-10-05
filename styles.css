@@ -223,6 +223,7 @@ li {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
         .introduction {
@@ -408,7 +409,7 @@ li {
             width: 50%;
             padding: 1%;
             height: 100%;
-            
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
 /*About me section*/
@@ -429,6 +430,7 @@ li {
             padding: 5%;
             font-size: xx-large;
             font-weight: lighter;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
         .vid-for-big-screens{
@@ -483,6 +485,7 @@ li {
             justify-content: center;
             gap: 10%;
             padding: 5%;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
         .skills {
@@ -579,6 +582,7 @@ li {
             padding: 1%;
             font-size: xx-large;
             font-weight: lighter;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
         .projects-list {
@@ -714,6 +718,7 @@ li {
             align-self: center;
             padding: 1%;
             height: 100vh;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
         .thatwasfun {
@@ -721,6 +726,7 @@ li {
             align-self: center;
             padding: 1%;
             height: 100vh;
+            filter: drop-shadow(4px 4px 12px #0109);
         }
 
                     
