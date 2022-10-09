@@ -605,8 +605,6 @@ li {
                 height: 100%;
             }
         
-        
-        
             .swiper-slide {
                 display: flex;
                 flex-direction: column;
@@ -716,6 +714,32 @@ li {
                         .RandM-project > a > img {
                             height: 90%;
                             width: 80%;
+                            border-radius: 20px;
+                        }
+
+                .RN-project {
+                    align-self: center;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5%;
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 20px;
+                    padding: 1%;
+                    box-shadow: 3px 3px 10px #0109;
+                }
+
+                    .RN-project > a {
+                        align-self: center;
+                        height: 60%;
+                        width: 90%;
+                        border-radius: 20px;
+                    }
+
+                        .RN-project > a > img {
+                            height: 100%;
+                            width: 40%;
                             border-radius: 20px;
                         }
 
